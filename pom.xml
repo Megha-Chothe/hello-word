@@ -38,6 +38,13 @@
           <target>11</target>
         </configuration>
       </plugin>
+             <plugin>
+  <artifactId>maven-war-plugin</artifactId>
+  <version>3.3.1</version>  <!-- Updated version -->
+  <configuration>
+    <!-- Any existing configurations -->
+  </configuration>
+</plugin>
 
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
